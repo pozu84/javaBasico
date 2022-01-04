@@ -30,15 +30,15 @@ public class descuentos {
         //IVA del 7%
         if (iva == 1){
             if (descuento == 1){
-                System.out.println("IVA: \t\t\t\t\t" + (base * 0.07));
+                System.out.println("IVA (7%): \t\t\t\t\t" + (base * 0.07));
                 double totalIva = base + (base * 0.07);
                 System.out.println("TOTAL: \t\t\t\t\t" + (totalIva - 5));
             } else if (descuento == 2){
-                System.out.println("IVA: \t\t\t\t\t" + (base * 0.07));
+                System.out.println("IVA (7%): \t\t\t\t\t" + (base * 0.07));
                 double totalIva = base + (base * 0.07);
                 System.out.println("TOTAL: \t\t\t\t\t" + (totalIva - 10));
             } else if (descuento == 3){
-                System.out.println("IVA: \t\t\t\t\t" + (base * 0.07));
+                System.out.println("IVA (7%): \t\t\t\t\t" + (base * 0.07));
                 double totalIva = base + (base * 0.07);
                 System.out.println("TOTAL: \t\t\t\t\t" + (totalIva - 20));
             }
@@ -46,30 +46,30 @@ public class descuentos {
         //IVA del 10%
         } else if (iva == 2){
             if (descuento == 1){
-                System.out.println("IVA: \t\t\t\t\t" + (base * 0.10));
+                System.out.println("IVA (10%): \t\t\t\t\t" + (base * 0.10));
                 double totalIva = base + (base * 0.10);
                 System.out.println("TOTAL: \t\t\t\t\t" + (totalIva - 5));
             } else if (descuento == 2){
-                System.out.println("IVA: \t\t\t\t\t" + (base * 0.10));
+                System.out.println("IVA (10%): \t\t\t\t\t" + (base * 0.10));
                 double totalIva = base + (base * 0.10);
                 System.out.println("TOTAL: \t\t\t\t\t" + (totalIva - 10));
             } else if (descuento == 3){
-                System.out.println("IVA: \t\t\t\t\t" + (base * 0.10));
+                System.out.println("IVA (10%): \t\t\t\t\t" + (base * 0.10));
                 double totalIva = base + (base * 0.10);
                 System.out.println("TOTAL: \t\t\t\t\t" + (totalIva - 20));
             }
 
         else {
             if (descuento == 1){
-                System.out.println("IVA: \t\t\t\t\t" + (base * 0.20));
+                System.out.println("IVA (20%): \t\t\t\t\t" + (base * 0.20));
                 double totalIva = base + (base * 0.20);
                 System.out.println("TOTAL: \t\t\t\t\t" + (totalIva - 5));
             } else if (descuento == 2){
-                System.out.println("IVA: \t\t\t\t\t" + (base * 0.20));
+                System.out.println("IVA (20%): \t\t\t\t\t" + (base * 0.20));
                 double totalIva = base + (base * 0.20);
                 System.out.println("TOTAL: \t\t\t\t\t" + (totalIva - 10));
             } else if (descuento == 3){
-                System.out.println("IVA: \t\t\t\t\t" + (base * 0.20));
+                System.out.println("IVA (20%): \t\t\t\t\t" + (base * 0.20));
                 double totalIva = base + (base * 0.20);
                 System.out.println("TOTAL: \t\t\t\t\t" + (totalIva - 20));
             }
