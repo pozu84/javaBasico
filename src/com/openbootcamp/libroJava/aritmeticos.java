@@ -41,5 +41,41 @@ public class aritmeticos {
                 System.out.println("OPCION INCORRECTA");
         }
 
+        System.out.println("*******************************************************");
+
+        System.out.println("CALCULO DE AREAS");
+        System.out.println("----------------");
+        System.out.println("Elija la opcion deseada");
+        System.out.println("(1) Cuadrado");
+        System.out.println("(1) Triangulo");
+        System.out.println("(1) Rectangulo");
+
+        int seleccion = sc.nextInt();
+
+        switch (seleccion) {
+            case 1:
+                System.out.println("Indique la base del cuadrado: ");
+                int area = sc.nextInt();
+                System.out.println(area * 2);
+                break;
+            case 2:
+                System.out.println("Escriba la base del triangulo: ");
+                double base = sc.nextDouble();
+                System.out.println("Escriba la altura del triangulo: ");
+                double altura = sc.nextDouble();
+                System.out.println((base * altura)/2);
+                break;
+            case 3:
+                System.out.println("Escriba la base del rectangulo: ");
+                int baseRectangulo = sc.nextInt();
+                System.out.println("Escriba la altura del rectangulo: ");
+                int alturaRectangulo = sc.nextInt();
+                System.out.println(baseRectangulo * alturaRectangulo);
+                break;
+            default:
+                System.out.println("Opcion incorrecta");
+        }
+
     }
+
 }
