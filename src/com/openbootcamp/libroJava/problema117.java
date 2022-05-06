@@ -1,3 +1,6 @@
+/*En una fiesta hay un numero de personas desconocidas que no conocemos
+* pregunta por el numero de personas desconocidas que hay, escribe su nombre y saludalas*/
+
 package com.openbootcamp.libroJava;
 
 import java.util.Scanner;
