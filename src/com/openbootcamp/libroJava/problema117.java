@@ -12,7 +12,7 @@ public class problema117 {
         int personasDesconocidas = sc.nextInt();
 
         for (int i = 0; i < personasDesconocidas; i++) {
-            System.out.println("Introduzca un nombre: ");
+            System.out.println("Soy: ");
             String nombre = sc.next();
             System.out.println("Hola " + nombre);
         }
